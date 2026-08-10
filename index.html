@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GRATET</title>
+<meta name="description" content="GRATET — 重力がひっくり返る落ちものパズル。iPhone 向けゲームアプリ。">
+<style>
+  :root {
+    --paper:   #F4F6FB;
+    --surface: #FFFFFF;
+    --ink:     #101736;
+    --muted:   #4E5878;
+    --rule:    #D3DAEA;
+    --accent:  #2B4FC0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper:   #0A0F22;
+      --surface: #121A38;
+      --ink:     #E7EBF8;
+      --muted:   #9BA6C6;
+      --rule:    #26315A;
+      --accent:  #8FAEFF;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic Medium",
+                 "Noto Sans JP", "Segoe UI", system-ui, sans-serif;
+    line-height: 1.9;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 72px 24px 96px;
+  }
+  h1 {
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    margin: 0 0 8px;
+  }
+  .tag {
+    font-size: 17px;
+    color: var(--muted);
+    margin: 0 0 40px;
+    padding-bottom: 32px;
+    border-bottom: 2px solid var(--ink);
+  }
+  h2 {
+    font-size: 18px;
+    margin: 40px 0 12px;
+  }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .links {
+    display: grid;
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: 32px 0 0;
+  }
+  .links a {
+    background: var(--surface);
+    padding: 16px 20px;
+    display: block;
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .links a:hover, .links a:focus-visible { background: var(--paper); }
+  .links a span {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>GRATET</h1>
+  <p class="tag">重力がひっくり返る落ちものパズル</p>
+
+  <h2>ゲームについて</h2>
+  <p>12×12 の正方形の盤面で遊ぶパズルゲームです。ブロックを積んで列を消すのは普通の落ちものパズルと同じですが、<strong>一定間隔で重力がひっくり返り、盤面ごと 180 度回転します</strong>。</p>
+  <p>回転したあとは、つながったブロックの塊が形を保ったまま落下して盤面が組み替わります。積み方しだいで、ひっくり返った先が連鎖になることも、崩壊の始まりになることもあります。</p>
+  <ul>
+    <li><strong>ひとりで</strong> — 世界が勝手にひっくり返るのを耐えながらスコアを伸ばす</li>
+    <li><strong>CPU対戦</strong> — 列を消すと相手の盤面をひっくり返せる。押し合いで先に積み切らせた方が勝ち</li>
+  </ul>
+  <p>操作にボタンはありません。画面をなぞるだけで動かせます。</p>
+
+  <div class="links">
+    <a href="privacy-policy.html">プライバシーポリシー<span>本アプリは個人情報を収集しません</span></a>
+    <a href="mailto:gratet.official@gmail.com">お問い合わせ<span>gratet.official@gmail.com</span></a>
+    <a href="https://suzuri.jp/GRATET">グッズ<span>SUZURI</span></a>
+  </div>
+
+  <footer>
+    GRATET
+  </footer>
+
+</main>
+</body>
+</html>
