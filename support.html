@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート — GRATET</title>
+<meta name="description" content="GRATET のサポートページ。動作環境、よくある質問、お問い合わせ先。">
+<style>
+  :root {
+    --paper:   #F4F6FB;
+    --surface: #FFFFFF;
+    --ink:     #101736;
+    --muted:   #4E5878;
+    --rule:    #D3DAEA;
+    --accent:  #2B4FC0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper:   #0A0F22;
+      --surface: #121A38;
+      --ink:     #E7EBF8;
+      --muted:   #9BA6C6;
+      --rule:    #26315A;
+      --accent:  #8FAEFF;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic Medium",
+                 "Noto Sans JP", "Segoe UI", system-ui, sans-serif;
+    line-height: 1.9;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 72px 24px 96px;
+  }
+  .app { font-size: 14px; letter-spacing: 0.16em; color: var(--muted); margin: 0 0 4px; }
+  h1 { font-size: 34px; letter-spacing: 0.02em; margin: 0 0 8px; }
+  .dates {
+    font-size: 14px; color: var(--muted); margin: 0 0 40px;
+    padding-bottom: 32px; border-bottom: 2px solid var(--ink);
+  }
+  h2 { font-size: 18px; margin: 40px 0 12px; }
+  h3 { font-size: 16px; margin: 26px 0 6px; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  dl { margin: 0 0 14px; }
+  dt { font-weight: 700; margin-top: 22px; }
+  dd { margin: 4px 0 0; color: var(--muted); }
+  a { color: var(--accent); }
+  .box {
+    background: var(--surface); border: 1px solid var(--rule);
+    padding: 20px 22px; margin: 24px 0;
+  }
+  .links {
+    display: grid; gap: 1px; background: var(--rule);
+    border: 1px solid var(--rule); margin: 32px 0 0;
+  }
+  .links a {
+    background: var(--surface); padding: 16px 20px; display: block;
+    text-decoration: none; color: var(--accent); font-weight: 700;
+  }
+  .links a:hover, .links a:focus-visible { background: var(--paper); }
+  .links a span {
+    display: block; font-weight: 400; font-size: 14px;
+    color: var(--muted); margin-top: 2px;
+  }
+  .divider { margin: 72px 0 0; border: 0; border-top: 2px solid var(--ink); }
+  footer {
+    margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--rule);
+    font-size: 13px; color: var(--muted);
+  }
+  [lang="en"] { margin-top: 48px; }
+</style>
+</head>
+<body>
+<main>
+
+  <p class="app">GRATET</p>
+  <h1>サポート</h1>
+  <p class="dates">最終更新日: 2026年8月14日</p>
+
+  <div class="box">
+    <p style="margin:0"><strong>お問い合わせ</strong><br>
+    <a href="mailto:gratet.official@gmail.com">gratet.official@gmail.com</a><br>
+    <span style="color:var(--muted);font-size:14px">個人で開発・運営しているため、返信までに数日いただく場合があります。
+    不具合のご連絡には、お使いの iPhone の機種と iOS のバージョン、
+    どの操作で起きたかを添えていただけると助かります。</span></p>
+  </div>
+
+  <h2>動作環境</h2>
+  <ul>
+    <li>iPhone（iOS 15.0 以降）</li>
+    <li>iPad には対応していません（iPhone 用として動作します）</li>
+    <li>インターネット接続はランキングの表示にのみ使用します。オフラインでもゲームは遊べます</li>
+  </ul>
+
+  <h2>よくある質問</h2>
+
+  <dl>
+    <dt>オンラインのランキングに何も表示されません</dt>
+    <dd>Game Center にサインインしているかご確認ください（iPhone の「設定」→「Game Center」）。
+        サインインしていない場合や通信できない場合は、オンラインの一覧は空になります。
+        <strong>サインインしなくても、ゲームのすべての機能と端末内の記録（マイスコア）はご利用いただけます。</strong></dd>
+
+    <dt>レートはどう決まりますか</dt>
+    <dd>CPU対戦の<strong>勝敗と試合内容</strong>で決まります。スコアは関係ありません。
+        強い相手に勝つほど大きく上がり、弱い相手に負けるほど大きく下がります。
+        負けた試合でも、相手を押し込んでいれば下がり幅は小さくなります。</dd>
+
+    <dt>対戦したのにレートが動きませんでした</dt>
+    <dd>ミノをほとんど動かさずに終わった試合や、極端に短い試合は、腕前を測れないためレートの対象外にしています。
+        リザルト画面に「対象外」と理由が表示されます。</dd>
+
+    <dt>記録が消えてしまいました</dt>
+    <dd>スコアとレートは<strong>お使いの端末内にのみ</strong>保存しているため、
+        アプリを削除すると一緒に消去され、復元できません。
+        Game Center へ送信済みのランキングの記録は、サインインし直せば残っています。</dd>
+
+    <dt>音が出ません</dt>
+    <dd>タイトル画面左下のボタンでミュートを切り替えられます。
+        あわせて、iPhone 本体の消音スイッチと音量もご確認ください。</dd>
+
+    <dt>広告は表示されますか</dt>
+    <dd>表示しません。広告配信のためのソフトウェアも組み込んでいません。</dd>
+
+    <dt>個人情報はどう扱われますか</dt>
+    <dd>開発者が個人情報を取得することはありません。詳しくは
+        <a href="privacy-policy.html">プライバシーポリシー</a>をご覧ください。</dd>
+  </dl>
+
+  <hr class="divider">
+
+  <section lang="en">
+    <p class="app">GRATET</p>
+    <h1>Support</h1>
+    <p class="dates">Last updated: August 14, 2026</p>
+
+    <div class="box">
+      <p style="margin:0"><strong>Contact</strong><br>
+      <a href="mailto:gratet.official@gmail.com">gratet.official@gmail.com</a><br>
+      <span style="color:var(--muted);font-size:14px">This app is developed and run by one person, so replies may take a few days.
+      For bug reports, please include your iPhone model, iOS version, and what you were doing when it happened.</span></p>
+    </div>
+
+    <h2>Requirements</h2>
+    <ul>
+      <li>iPhone (iOS 15.0 or later)</li>
+      <li>iPad is not supported (it runs as an iPhone app)</li>
+      <li>An internet connection is used only for leaderboards. The game is fully playable offline</li>
+    </ul>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <dl>
+      <dt>The online leaderboard is empty</dt>
+      <dd>Check that you are signed in to Game Center (Settings &rarr; Game Center on your iPhone).
+          If you are not signed in, or cannot connect, the online list will be empty.
+          <strong>All gameplay features and your on-device records remain available without signing in.</strong></dd>
+
+      <dt>How is my rating calculated?</dt>
+      <dd>From the <strong>outcome and the content</strong> of your CPU matches. Score is not used.
+          Beating a stronger opponent raises it more; losing to a weaker one costs more.
+          Even in a loss, holding your own against the opponent reduces how much you drop.</dd>
+
+      <dt>I played a match but my rating did not change</dt>
+      <dd>Matches where the pieces were barely moved, or that ended almost immediately, are excluded
+          because they cannot measure skill. The result screen shows the reason.</dd>
+
+      <dt>My records disappeared</dt>
+      <dd>Scores and ratings are stored <strong>only on your device</strong>, so deleting the app
+          erases them permanently. Records already submitted to Game Center remain there.</dd>
+
+      <dt>There is no sound</dt>
+      <dd>Use the button at the bottom left of the title screen to toggle mute,
+          and check your iPhone&rsquo;s silent switch and volume.</dd>
+
+      <dt>Does the app show ads?</dt>
+      <dd>No. It contains no advertising software.</dd>
+
+      <dt>How is my data handled?</dt>
+      <dd>The developer collects no personal information. See the
+          <a href="privacy-policy.html">Privacy Policy</a> for details.</dd>
+    </dl>
+  </section>
+
+  <div class="links">
+    <a href="index.html">GRATET について<span>About the app</span></a>
+    <a href="privacy-policy.html">プライバシーポリシー<span>Privacy Policy</span></a>
+  </div>
+
+  <footer>
+    GRATET
+  </footer>
+
+</main>
+</body>
+</html>
