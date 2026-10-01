@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GRATET BATTLE</title>
+<meta name="description" content="GRATET BATTLE — 重力がひっくり返るオンライン対戦パズル。ラインを消すと相手の盤面が180度回転します。iPhone・無料。">
+<meta property="og:title" content="GRATET BATTLE">
+<meta property="og:description" content="ラインを消すと、相手の盤面そのものが180度回転する対戦パズル。iPhone・無料。">
+<meta property="og:image" content="https://gratet-official.github.io/battle/press/01_flip.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    --paper:   #F4F6FB;
+    --surface: #FFFFFF;
+    --ink:     #101736;
+    --muted:   #4E5878;
+    --rule:    #D3DAEA;
+    --accent:  #2B4FC0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper:   #0A0F22;
+      --surface: #121A38;
+      --ink:     #E7EBF8;
+      --muted:   #9BA6C6;
+      --rule:    #26315A;
+      --accent:  #8FAEFF;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic Medium",
+                 "Noto Sans JP", "Segoe UI", system-ui, sans-serif;
+    line-height: 1.9;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 72px 24px 96px;
+  }
+  h1 {
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    margin: 0 0 8px;
+  }
+  .tag {
+    font-size: 17px;
+    color: var(--muted);
+    margin: 0 0 40px;
+    padding-bottom: 32px;
+    border-bottom: 2px solid var(--ink);
+  }
+  h2 {
+    font-size: 18px;
+    margin: 40px 0 12px;
+  }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  video, img.shot {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    margin: 24px auto;
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    background: #000;
+  }
+  .shots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin: 24px 0;
+  }
+  .shots img { width: 100%; margin: 0; max-width: none; border-radius: 8px; }
+  .links {
+    display: grid;
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: 32px 0 0;
+  }
+  .links a {
+    background: var(--surface);
+    padding: 16px 20px;
+    display: block;
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .links a:hover, .links a:focus-visible { background: var(--paper); }
+  .links a span {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+  a { color: var(--accent); }
+  dl { margin: 0 0 14px; }
+  dt { font-weight: 700; margin-top: 10px; }
+  dd { margin: 0 0 0 0; color: var(--muted); }
+  footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>GRATET BATTLE</h1>
+  <p class="tag">重力がひっくり返るオンライン対戦パズル</p>
+
+  <video src="press/flip.mp4" autoplay muted loop playsinline></video>
+
+  <h2>消すと、相手の世界がひっくり返る</h2>
+  <p>ラインを消すと、お邪魔ブロックの代わりに<strong>相手の盤面そのものが 180 度回転します</strong>。積み上げた山は天地が逆になり、崩れ、落ち、そこから連鎖が生まれます。守りきった形が一瞬で意味を失う——それがこのゲームの攻撃です。</p>
+
+  <h2>12×12 の正方形</h2>
+  <p>盤面が正方形なのは、ひっくり返っても成立させるためです。縦長の盤面では、回した瞬間にブロックが画面の外へ出るか天井に張り付いて破綻します。「回す」を攻撃にすると決めた時点で、盤面の形が先に決まりました。</p>
+
+  <h2>世界中の誰かと、その場で</h2>
+  <p>オンライン対戦は Game Center を通じて、いま遊んでいる誰かと自動でマッチングします。フレンドを招いて遊ぶこともできます。勝敗はレートに反映され、ランキングで比べられます。レートは<strong>負けても減りません</strong>。勝った試合だけが押し上げます。</p>
+
+  <h2>指でなぞるだけ</h2>
+  <p>画面にボタンはありません。左右になぞって移動、画面の左右をタップで回転、下へなぞって落下、上へスワイプでホールド。ボタンを置かないぶん、盤面を大きく取っています。1 試合はおよそ 1 分です。</p>
+
+  <div class="shots">
+    <img src="press/01_flip.png" alt="盤面が180度回転する攻撃">
+    <img src="press/02_vs.png" alt="対戦開始前のVS画面">
+    <img src="press/03_match.png" alt="対戦中の画面">
+    <img src="press/04_title.png" alt="タイトル画面">
+  </div>
+
+  <div class="links">
+    <a href="https://apps.apple.com/jp/app/gratet-battle/id6813626355">App Store でダウンロード<span>iPhone・無料・アプリ内課金なし</span></a>
+    <a href="support.html">サポート<span>動作環境・よくある質問・お問い合わせ</span></a>
+    <a href="privacy-policy.html">プライバシーポリシー</a>
+  </div>
+
+  <h2>プレスキット</h2>
+  <p>記事でお使いいただける素材です。スクリーンショット・アイコン・プレイ動画が入っています。クレジットの表記は任意です。</p>
+
+  <dl>
+    <dt>タイトル</dt><dd>GRATET BATTLE（グラテット バトル）</dd>
+    <dt>ジャンル</dt><dd>オンライン対戦パズル</dd>
+    <dt>対応端末</dt><dd>iPhone（iOS 15.0 以降）・縦持ち</dd>
+    <dt>価格</dt><dd>無料（広告あり・アプリ内課金なし）</dd>
+    <dt>配信日</dt><dd>2026 年 9 月 19 日</dd>
+    <dt>開発</dt><dd>個人開発（GRATET）</dd>
+    <dt>言語</dt><dd>日本語</dd>
+  </dl>
+
+  <div class="links">
+    <a href="presskit.zip">プレスキットをダウンロード<span>ZIP・約 5.6MB / スクリーンショット 4 点、アイコン、動画 2 点</span></a>
+    <a href="press/gameplay.mp4">プレイ動画（28 秒）<span>MP4・886×1920</span></a>
+  </div>
+
+  <footer>
+    GRATET BATTLE
+  </footer>
+
+</main>
+</body>
+</html>
